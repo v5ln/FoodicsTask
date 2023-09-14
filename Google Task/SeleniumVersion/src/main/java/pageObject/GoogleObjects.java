@@ -95,7 +95,6 @@ public class GoogleObjects {
         }
     }
 
-
     public void checkMoreResultButtonIsDisplayed(Boolean isDisplayed) {
         assert isDisplayed? moreResultsButton.isDisplayed():
                 !moreResultsButton.isDisplayed();
