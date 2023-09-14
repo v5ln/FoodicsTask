@@ -11,5 +11,5 @@ This segment focuses on the Google Search functionalities. Emphasis is on the "M
 4. **Search Suggestions**: Verifies the uniqueness and relevance of suggestions as you type.
 
 For a more detailed approach:
-- [Cypress Implementation](./Cypress%20Version/README.md)
-- [Selenium Implementation](./SeleniumVersion/README.md)
+- [Cypress Implementation](./Cypress%20Version)
+- [Selenium Implementation](./SeleniumVersion)

@@ -13,5 +13,5 @@ While Cypress has been my primary tool for testing, this project was an opportun
 
 ## Directories:
 
-- [Google Task](/Google%20Task/README.md)
-- [Foodics API Task](Foodics%20API%20Task/README.md)
+- [Google Task](/Google%20Task)
+- [Foodics API Task](/Foodics%20API%20Task/)
