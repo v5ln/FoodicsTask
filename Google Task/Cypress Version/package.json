@@ -1,0 +1,22 @@
+{
+  "name": "foodcstask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "cypress": "^12.17.4",
+    "save-dev": "^0.0.1-security",
+    "unique-names-generator": "^4.7.1"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.5",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "typescript": "^5.2.2"
+  }
+}
