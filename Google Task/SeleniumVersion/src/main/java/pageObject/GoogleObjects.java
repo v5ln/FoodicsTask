@@ -37,7 +37,7 @@ public class GoogleObjects {
     }
 
     public void visit() {
-        driver.get("https://www.google.com");
+        driver.get("https://www.google.com/?hl=en");
     }
 
     public void enterSearchKeyword(String keyword) {
@@ -81,12 +81,8 @@ public class GoogleObjects {
                 !numberOfResults1.equals(numberOfResults2);
     }
 
-    public void setLanguageToEnglish(){
-        driver.findElement(By.linkText("English")).click();
-    }
-
     public void turnOfTheScrolling(){
-        driver.get("https://www.google.com/preferences");
+        driver.get("https://www.google.com/preferences?hl=en");
         driver.findElement(By.xpath("//div[contains(text(),'Other settings')]")).click();
         WebElement ContinuousScrollCheckBox = driver.findElement(By.xpath("//div[@role='checkbox'][.//span[contains(text(),'Continuous scroll')]]"));
         String isChecked = ContinuousScrollCheckBox.getAttribute("aria-checked");

@@ -21,8 +21,6 @@ public class GoogleSearch {
 
     @Before
     public void beforeScenario(){
-        googleObjects.visit();
-        googleObjects.setLanguageToEnglish();
         googleObjects.turnOfTheScrolling();
         googleObjects.visit();
     }
